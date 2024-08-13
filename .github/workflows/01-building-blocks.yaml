@@ -9,6 +9,8 @@ jobs:
       steps: 
         - name: Say Hello
           run: echo "Hello World!"
+  echo-goodbye:
+    runs-on: ubuntu-latest
         - name: Failed Step
           run: |
             echo "I will fail!"
