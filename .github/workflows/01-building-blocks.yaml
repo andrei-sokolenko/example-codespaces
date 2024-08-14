@@ -20,5 +20,5 @@ jobs:
       - name: Show Event
         run: echo "Triggered by event ${{ github.event_name }}"
       - name: Say Goodbye
-        run: echo "Goodbye!"
+        run: set
 
