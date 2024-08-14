@@ -11,9 +11,10 @@ jobs:
       - name: Say Hello
         run: echo "Hello World!"
   echo-goodbye:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Failed Step
+        shell: bash
         run: |
           echo "I will fail!"
           exit 0
