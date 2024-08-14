@@ -20,5 +20,5 @@ jobs:
           exit 0
       - name: Say Goodbye
         run: echo "Goodbye!"
-        run: echo "Triggered by event: ${{github.event}}"
+        run: echo "Triggered by event: ${{github.event_name}}"
 
